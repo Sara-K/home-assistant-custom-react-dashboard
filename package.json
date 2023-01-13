@@ -1,0 +1,39 @@
+{
+  "name": "home-assistant-custom-react-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production parcel build src/index.html",
+    "start": "NODE_ENV=development parcel src/index.html"
+  },
+  "alas": {
+    "@root": "./src",
+    "@hass": "./src/hass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sara-K/home-assistant-custom-react-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sara-K/home-assistant-custom-react-dashboard/issues"
+  },
+  "homepage": "https://github.com/Sara-K/home-assistant-custom-react-dashboard#readme",
+  "dependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.11.18",
+    "home-assistant-js-websocket": "^8.0.1",
+    "lodash": "^4.17.21",
+    "parcel": "^2.8.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
